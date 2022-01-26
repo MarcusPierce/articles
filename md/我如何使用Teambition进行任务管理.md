@@ -26,8 +26,6 @@
 
 **Microsoft TO-DO logo**
 
-
-
 想象多条 To-do list 横向排开，每一列都有着其对应的职能，而任务可以在不同的列之间随意拖动。
 
 ![List-example](https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/List-example.png)

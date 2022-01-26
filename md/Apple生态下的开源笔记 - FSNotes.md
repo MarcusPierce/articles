@@ -1,8 +1,10 @@
 # Apple生态下的开源笔记 - FSNotes
 
 ## 介绍
+
 FSNote是一款支持 macOS 和 iOS 的开源笔记软件。
 官方列出了以下主要特点
+
 > Markdown 优先，支持纯文本和 RTF 文件
 > 轻量流畅，10k+文件仍然运行良好
 > iCloud Drive 或 Dropbox 同步（任何同步盘）
@@ -27,14 +29,18 @@ macOS 版完全免费，但提供 Mac App Store 付费下载，用于支持作�
 iOS 版付费买断，国区售价¥18。可以选择使用云服务同步到 iOS 后使用其他支持 Markdown 的软件进行编辑查看。
 
 ## 安装
+
 macOS端可以使用 Homebrew 进行安装
+
 ```
 brew install fsnotes
 ```
+
 或在 GitHub Releases 界面下载
  [GitHub Releases](https://github.com/glushchenko/fsnotes/releases) 
 
 ## 使用
+
 完成安装后，软件内置非常详细的英文使用教学。
 ![Built-in tutorial](https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Built-in%20tutorial.png)
 笔者对其进行了翻译，并且在 GitHub 提交了希望增加多语言支持的 Issues。
@@ -140,7 +146,6 @@ FSNotes 支持纯键盘操作，是一款快捷键友好的应用。
 每个项目都有自己的设置，右键单击项目 - "显示视图选项" `cmd + shift + ,`.
 
 ![View](https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/aEpF5U.jpg)
-
 
 您可以配置排序、方向、可见性设置。
 
@@ -264,7 +269,7 @@ _斜体_
 ~~删除线~~
 快捷键：`cmd + y`
 
-#### 引用 
+#### 引用
 
 > 您可以引用
 > 不止一行
@@ -280,14 +285,14 @@ public static func getHighlighter() -> Highlightr? {
     if let instance = self.hl {
         return instance
     }
-    
+
     guard let highlightr = Highlightr() else {
         return nil
     }
-    
+
     highlightr.setTheme(to: "vs")
     self.hl = highlightr
-    
+
     return self.hl
 }
 ```
